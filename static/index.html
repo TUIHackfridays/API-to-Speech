@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>API to Speech</title>
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" type="image/x-icon" href="./static/img/favicon.ico" />
+  <link href="./static/css/vendor/normalize.css" rel="stylesheet" type="text/css">
+  <link href="./static/css/vendor/skeleton.css" rel="stylesheet" type="text/css">
+  <link href="./static/css/app.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div class="container margin-top">
+    <h1>API to Speech</h1>
+
+    <div class="main">
+      <div class="row">
+        <div class="six columns">
+          <label for="select_voices">Available Voices</label>
+          <select id="select_voices"></select>
+          <button id="voices">Choose</button>
+        </div>
+        <div class="six columns text-right">
+          <label for="speak">
+              speak?
+              <input type="checkbox" id="speak" checked />
+            </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <h2>Results</h2>
+        <p id="result"></p>
+      </div>
+
+      <div class="row">
+        <div class="six columns">
+          <div class="group">
+            <label for="user_input_add">Add Data<sub> Create new data</sub></label>
+            <textarea id="user_input_add" placeholder="data"></textarea>
+            <br /><button class="right" id="add">Add</button>
+          </div>
+          <div class="group">
+            <label for="user_input_get">Get Data<sub> Get data with id</sub></label>
+            <input id="user_input_get" placeholder="0" type="number" />
+            <br /><button class="right" id="get">Get</button>
+          </div>
+          <div class="group">
+            <label for="user_input_edit">Edit Data<sub> Edit data from Get Data</sub></label>
+            <textarea id="user_input_edit" placeholder="Data to edit"></textarea>
+            <br /><button class="right" id="edit">Edit</button>
+          </div>
+          <div class="group">
+            <label for="user_input_del">Delete Data<sub> Delete data with id</sub></label>
+            <input id="user_input_del" placeholder="0" type="number" />
+            <br /><button class="right" id="del">Delete</button>
+          </div>
+        </div>
+        <div class="six columns">
+          <label for="user_input_caps">Capitalize</label>
+          <textarea id="user_input_caps" placeholder="capitalize this"></textarea>
+          <br /><button class="right" id="caps">Capitalize</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <label for="user_input_search">Search (english only)</label>
+        <textarea id="user_input_search" placeholder="search this"></textarea>
+        <br /><button class="right" id="search">Search</button>
+      </div>
+
+      <h3>Get audio</h3>
+      <p>You can make a <strong>GET</strong> or <strong>POST</strong> request to <span id="url"></span> to get the audio file.</p>
+      <div class="row">
+        <div class="six columns">
+          <h4>GET Request</h4>
+          <div>
+            <label>Text</label><input id="url-input" type="text" placeholder="type something here"></input>
+            <h6>Command-line:</h6>
+            <pre>curl -X GET "<span id="url-text"></span>" > result.mp3</pre>
+          </div>
+        </div>
+        <div class="six columns">
+          <h4>POST Request</h4>
+          <div>
+            <label>Text</label><input id="url-input-post" type="text" placeholder="type something here"></input>
+            <h6>Command-line:</h6>
+            <pre>curl -X POST <span id="url"></span> -H 'content-type: application/json' -d '<span id="url-data"></span>' > result.mp3</pre>
+          </div>
+        </div>
+      </div>
+
+      <audio id="response_audio">
+        <source src="./audio_response" type="audio/mp3">
+        Your browser does not support this audio format.
+      </audio>
+    </div>
+
+  </div>
+
+  <script src="./static/js/app.js"></script>
+</body>
+
+</html>

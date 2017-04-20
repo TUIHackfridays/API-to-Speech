@@ -1,0 +1,27 @@
+# Logs
+logs
+*.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# IDEA/Webstorm project files
+.idea
+*.iml
+
+# Mac files
+.DS_Store
+
+config.cfg
+
+**/stt.txt
+**/file.flac
+**/file.wav
+
+venv/
+audio/
+
+# ignore compiled file
+**.pyc

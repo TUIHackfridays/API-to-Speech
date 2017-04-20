@@ -1,0 +1,203 @@
+[
+  {
+		"gender": "Female",
+		"voice_name": "Naja",
+		"language": "da-DK",
+    "voice_language": "Danish"
+	}, {
+		"gender": "Female",
+		"voice_name": "Marlene",
+		"language": "de-DE",
+    "voice_language": "German"
+	}, {
+		"gender": "Female",
+		"voice_name": "Nicole",
+		"language": "en-AU",
+    "voice_language": "English, Australian"
+	}, {
+		"gender": "Female",
+		"voice_name": "Emma",
+		"language": "en-GB",
+    "voice_language": "English, British"
+	}, {
+		"gender": "Female",
+		"voice_name": "Gwyneth",
+		"language": "en-GB-WLS",
+    "voice_language": "English, Welsh"
+	}, {
+		"gender": "Female",
+		"voice_name": "Gwyneth",
+		"language": "cy-GB",
+    "voice_language": "Welsh"
+	}, {
+		"gender": "Female",
+		"voice_name": "Raveena",
+		"language": "en-IN",
+    "voice_language": "English, Indian"
+	}, {
+		"gender": "Female",
+		"voice_name": "Jennifer",
+		"language": "en-US",
+    "voice_language": "English, American"
+	}, {
+		"gender": "Female",
+		"voice_name": "Conchita",
+		"language": "es-ES",
+    "voice_language": "Spanish, Castilian"
+	}, {
+		"gender": "Female",
+		"voice_name": "Penelope",
+		"language": "es-US",
+    "voice_language": "Spanish, American"
+	}, {
+		"gender": "Female",
+		"voice_name": "Chantal",
+		"language": "fr-CA",
+    "voice_language": "French, Canada"
+	}, {
+		"gender": "Female",
+		"voice_name": "Celine",
+		"language": "fr-FR",
+    "voice_language": "French"
+	}, {
+		"gender": "Female",
+		"voice_name": "Dora",
+		"language": "is-IS",
+    "voice_language": "Icelandic"
+	}, {
+		"gender": "Female",
+		"voice_name": "Carla",
+		"language": "it-IT",
+    "voice_language": "Italian"
+	}, {
+		"gender": "Female",
+		"voice_name": "Liv",
+		"language": "nb-NO",
+    "voice_language": "Norwegian"
+	}, {
+		"gender": "Female",
+		"voice_name": "Lotte",
+		"language": "nl-NL",
+    "voice_language": "Dutch"
+	}, {
+		"gender": "Female",
+		"voice_name": "Maja",
+		"language": "pl-PL",
+    "voice_language": "Polish"
+	}, {
+		"gender": "Female",
+		"voice_name": "Vitoria",
+		"language": "pt-BR",
+    "voice_language": "Portuguese, Brazilian"
+	}, {
+		"gender": "Female",
+		"voice_name": "Ines",
+		"language": "pt-PT",
+    "voice_language": "Portuguese"
+	}, {
+		"gender": "Female",
+		"voice_name": "Carmen",
+		"language": "ro-RO",
+    "voice_language": "Romanian"
+	}, {
+		"gender": "Female",
+		"voice_name": "Tatyana",
+		"language": "ru-RU",
+    "voice_language": "Russian"
+	}, {
+		"gender": "Female",
+		"voice_name": "Astrid",
+		"language": "sv-SE",
+    "voice_language": "Swedish"
+	}, {
+		"gender": "Female",
+		"voice_name": "Filiz",
+		"language": "tr-TR",
+    "voice_language": "Turkish"
+	}, {
+		"gender": "Male",
+		"voice_name": "Joey",
+		"language": "en-US",
+    "voice_language": "English, American"
+	}, {
+		"gender": "Male",
+		"voice_name": "Mads",
+		"language": "da-DK",
+    "voice_language": "Danish"
+	}, {
+		"gender": "Male",
+		"voice_name": "Hans",
+		"language": "de-DE",
+    "voice_language": "German"
+	}, {
+		"gender": "Male",
+		"voice_name": "Russell",
+		"language": "en-AU",
+    "voice_language": "English, Australian"
+	}, {
+		"gender": "Male",
+		"voice_name": "Brian",
+		"language": "en-GB",
+    "voice_language": "English, British"
+	}, {
+		"gender": "Male",
+		"voice_name": "Geraint",
+		"language": "en-GB-WLS",
+    "voice_language": "English, Welsh"
+	}, {
+		"gender": "Male",
+		"voice_name": "Geraint",
+		"language": "cy-GB",
+    "voice_language": "Welsh"
+	}, {
+		"gender": "Male",
+		"voice_name": "Enrique",
+		"language": "es-ES",
+    "voice_language": "Spanish, Castilian"
+	}, {
+		"gender": "Male",
+		"voice_name": "Miguel",
+		"language": "es-US",
+    "voice_language": "Spanish, American"
+	}, {
+		"gender": "Male",
+		"voice_name": "Mathieu",
+		"language": "fr-FR",
+    "voice_language": "French"
+	}, {
+		"gender": "Male",
+		"voice_name": "Karl",
+		"language": "is-IS",
+    "voice_language": "Icelandic"
+	}, {
+		"gender": "Male",
+		"voice_name": "Giorgio",
+		"language": "it-IT",
+    "voice_language": "Italian"
+	}, {
+		"gender": "Male",
+		"voice_name": "Ruben",
+		"language": "nl-NL",
+    "voice_language": "Dutch"
+	}, {
+		"gender": "Male",
+		"voice_name": "Jacek",
+		"language": "pl-PL",
+    "voice_language": "Polish"
+	}, {
+		"gender": "Male",
+		"voice_name": "Ricardo",
+		"language": "pt-BR",
+    "voice_language": "Portuguese, Brazilian"
+	}, {
+		"gender": "Male",
+		"voice_name": "Cristiano",
+		"language": "pt-PT",
+    "voice_language": "Portuguese"
+	}, {
+		"gender": "Male",
+		"voice_name": "Maxim",
+		"language": "ru-RU",
+    "voice_language": "Russian"
+	}
+]
