@@ -45,7 +45,7 @@ Open browser on printed URL, usually `http://0.0.0.0:5000`.
 - **Speak**
   - Turn *on* and *off* speech response
   - speak [ ]: audio feedback off
-  - speak [x]: audio feedback on
+  - speak [:heavy_check_mark:]: audio feedback on
 
 - **Results**
   - The results will be showned here
