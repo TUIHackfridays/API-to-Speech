@@ -40,41 +40,41 @@ Open browser on printed URL, usually `http://0.0.0.0:5000`.
 ![screenshot](http://i.imgur.com/B2jvNfS.png)
 
 - **Available Voices**
- - Select the voice you want the results to be spoken with.
+  - Select the voice you want the results to be spoken with.
 
 - **Speak**
- - Turn *on* and *off* speech response
- - speak <input type="checkbox" readonly>: audio feedback off
- - speak <input type="checkbox" checked="checked" readonly>: audio feedback on
+  - Turn *on* and *off* speech response
+  - speak <input type="checkbox" readonly>: audio feedback off
+  - speak <input type="checkbox" checked="checked" readonly>: audio feedback on
 
 - **Results**
- - The results will be showned here
+  - The results will be showned here
 
 - **Add Data**
- - Will create an entry with the inputed text and return the generated ID.
- - *Note:* The result returned is always in english.
+  - Will create an entry with the inputed text and return the generated ID.
+  - *Note:* The result returned is always in english.
 
 - **Get Data**
- - Will get the data with the inputed ID (the inputed text) and show it in the Results and in the Edit Data sections.
- - *Note:* The result if nothing is found will be in english.
+  - Will get the data with the inputed ID (the inputed text) and show it in the Results and in the Edit Data sections.
+  - *Note:* The result if nothing is found will be in english.
 
 - **Edit Data**
   - Will edit the data fetched via Get Data with the new inputed text.
   - *Note:* The result returned (success|fail) is always in english.
 
 - **Delete Data**
- - Will delete the data with the inputed ID.
- - *Note:*  The result returned (success|fail) is always in english.
+  - Will delete the data with the inputed ID.
+  - *Note:*  The result returned (success|fail) is always in english.
 
 - **Capitalize**
   - Will get a capitalized version of the inputed text.
 
 - **Search**
- - Will search for the inputed term using duckduck go API and get the first available response (text and a URL or just a URL).
- - Example: Weather in [city name]
+  - Will search for the inputed term using duckduck go API and get the first available response (text and a URL or just a URL).
+  - Example: Weather in [city name]
 
 - **Get Audio**
- - Used to get an audio file with speech of the inputed text.
-   - Request examples for command line using curl:
-     - **GET Request**: will generate the curl GET command to get the audio file for the inputed text
-     - **POST Request**: will generate the curl POST command to get the audio file for the inputed text
+  - Used to get an audio file with speech of the inputed text.
+    - Request examples for command line using curl:
+      - **GET Request**: will generate the curl GET command to get the audio file for the inputed text
+      - **POST Request**: will generate the curl POST command to get the audio file for the inputed text
